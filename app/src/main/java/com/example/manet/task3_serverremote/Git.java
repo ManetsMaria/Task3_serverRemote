@@ -7,7 +7,8 @@ import android.widget.Toast;
 
 public class Git extends AppCompatActivity {
 
-    private static final int TWO = 2;
+
+    private static final int ONE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +17,6 @@ public class Git extends AppCompatActivity {
     }
 
     public void showMessage(View view){
-        Toast.makeText(this, String.valueOf(TWO), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, String.valueOf(ONE), Toast.LENGTH_SHORT).show();
     }
 }
