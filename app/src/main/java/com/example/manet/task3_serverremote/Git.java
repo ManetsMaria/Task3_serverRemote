@@ -7,6 +7,7 @@ import android.widget.Toast;
 
 public class Git extends AppCompatActivity {
 
+
     private static final int ONE = 1;
 
     @Override
